@@ -1,0 +1,19 @@
+//An algorithm that reads three numbers and writes them all in sorted order
+START
+LET N=three numbers 
+    INPUT N1
+    INPUT N2
+    INPUT N3
+IF N1<N2 and N2<N3 THEN
+    PRINT (N1,N2,N3)
+IF N1<N3 and N3<N2 THEN
+    PRINT (N1,N3,N2)
+IF N2<N1 and N1<N3 THEN
+    PRINT (N2,N1,N3)
+IF N2<N3 and N3<N1 THEN
+    PRINT (N2,N3,N1)
+IF N3<N1 and N1<N2 THEN 
+    PRINT (N3,N1,N2)
+IF N3<N2 and N2<N1 THEN    
+    PRINT (N3,N2,N1)
+STOP    

@@ -1,0 +1,16 @@
+//An algorithm that calculates a running sum
+START
+    INPUT NUMBERS (POSITIVE AND NEGATIVE INTEGERS)
+    LET THE NUMBERS = (A,B,C,D)
+    READ(A,B,C,D)
+    SUM(A+B+C+D)
+IF A is a negative integer THEN
+    STOP SUM 
+IF B is a negative integer THEN
+    STOP SUM and PRINT(A)
+IF C is a negative integer THEN    
+    STOP SUM and PRINT(A+B)
+IF D is a negative integer THEN
+    STOP SUM and PRINT(A+B+C) 
+STOP
+   

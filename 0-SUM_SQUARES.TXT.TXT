@@ -1,0 +1,9 @@
+//An algorithm that calculates the sum of squares of given input of numbers
+START
+    INPUT a
+    INPUT b
+    SQUARE1 = a*a 
+    SQUARE2 = b*b
+    SUM (SQUARE1 + SQUARE2)
+PRINT SUM
+STOP
